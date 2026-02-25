@@ -1,0 +1,31 @@
+{%- assign videoType = "youtube" %}
+                    {%- if video_url contains "vimeo.com" -%}
+                    {%- assign videoType = "vimeo" %}
+                    {%- assign video_id = video_url | split: ".com/" -%}
+                    {%- assign video_id = video_id[1] | split: "/" | first -%}
+                    {% elsif video_url contains "youtube.com/watch" %}
+                    {%- assign video_id = video_url | split: "v=" -%}
+                    {%- assign video_id = video_id[1] | split: "&" | first -%}
+                    {% elsif video_url contains "youtube.com/shorts" %}
+                    {%- assign video_id = video_url | split: "shorts/" -%}
+                    {%- assign video_id = video_id[1] | split: "?" | first -%}
+                    {% elsif video_url contains "youtube.com/embed" %}
+                    {%- assign video_id = video_url | split: "embed/" -%}
+                    {%- assign video_id = video_id[1] | split: "/" | first -%}
+                    {% elsif video_url contains "youtu.be/" %}
+                    {%- assign video_id = video_url | split: ".be/" -%}
+                    {%- assign video_id = video_id[1] | split: "&" | first -%}
+                    {% else %}
+                    {%- assign videoType = "mp4" %}
+                    {%- endif -%}
+                    {% if videoType == "youtube" %}
+                    <div class="csp-embed-iframe {% if isMobileVideo %}{{ className }}{% endif %}">
+                        <iframe data-videotype="{{ videoType }}" data-autoPlay="{{ autoPlay }}" class="csp_video swiper-lazy" loading="lazy" src="https://www.youtube.com/embed/{{ video_id }}?autoplay={%- if autoPlay == 1 -%}1{%- else -%}0{%- endif -%}&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1&background=1&playlist={{video_id}}" title="{{ setting.video_alt_text }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    {% elsif videoType == "vimeo" %}
+                    <div class="csp-embed-iframe {% if isMobileVideo %}{{ className }}{% endif %}">
+                        <iframe data-videotype="{{ videoType }}" class="csp_video swiper-lazy" loading="lazy" data-autoPlay="{{ autoPlay }}" src="https://player.vimeo.com/video/{{ video_id }}?autoplay={%- if autoPlay == 1 -%}1{%- else-%}0{%- endif -%}&loop=1&title=0&byline=0&portrait=0&muted=1&transparent=0&background=1" title="{{ setting.video_alt_text }}" frameBorder="0" allow="fullscreen" allowFullScreen data-ready="true" ></iframe>
+                    </div>
+                    {% else %}
+                    <video data-videotype="{{ videoType }}" data-autoPlay="{{ autoPlay }}" class="csp_video swiper-lazy {% if isMobileVideo %}{{ className }}{% endif %}" data-type="mp4" src="{{ video_url }}"  title="{{ setting.video_alt_text }}" loop muted playsinline {% if autoPlay == 1 %}autoplay{% endif %} ></video>
+                    {%- endif -%}

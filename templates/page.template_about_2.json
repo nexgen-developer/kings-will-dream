@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-about-2-page",
+      "blocks": {
+        "c81eda09-15c8-42fb-8183-726c74e49b52": {
+          "type": "content",
+          "settings": {
+            "title": "Kings Will Dream X Macclesfield Football Club",
+            "content": "<span>As proud sponsors of Macclesfield Football Club, we’re delighted to see the team reach the fourth round of the FA Cup. To celebrate, anyone who signs up to our mailing list will receive an exclusive 25% discount. Sign up below. We’ve also launched official KWD × Macclesfield merchandise, available to pre-order now.</span>",
+            "align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "c81eda09-15c8-42fb-8183-726c74e49b52"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "breadcrumb_alignment": "center",
+        "show_page_title": false,
+        "page_title_alignment": "center",
+        "container": "1370",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "custom_liquid_GyEqJd": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"om-embedded-campaign\" data-campaign-id=\"11\"></div>"
+      }
+    },
+    "halo_product_block_7_TmLdeV": {
+      "type": "halo-product-block-7",
+      "name": "t:sections.product-block.presets.name__9",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 19,
+        "padding_bottom": 26,
+        "padding_top_tablet": 26,
+        "padding_bottom_tablet": 31,
+        "padding_top_mobile": 23,
+        "padding_bottom_mobile": 25,
+        "block_title": "OFFICIAL MERCH",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "narrow",
+        "block_collection": "kwd-x-macclesfield-fc-range",
+        "block_limit": 12,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": false,
+        "show_view_all": true,
+        "view_all_text": "View All",
+        "button_style": "1",
+        "block_show": "4.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_GyEqJd",
+    "halo_product_block_7_TmLdeV"
+  ]
+}

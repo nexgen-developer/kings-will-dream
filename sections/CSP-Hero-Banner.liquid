@@ -1,0 +1,278 @@
+{% assign slideShowData = shop.metafields.slider_app.slider502.value %}
+{% assign slideShowSetting = slideShowData.section_json %}
+{% assign isApplyFixHeight = slideShowSetting.apply_fix_height | default:"1" %}
+{% assign blockCount = slideShowSetting.total_sub_section %}
+{% assign today_date = "now" | date: "%s" %}
+{% assign sectionId = slideShowData.shopify_section_id  %}
+<section class="scheduled-banner-slideShow-{{ sectionId }}">
+  <div class="csp_container">
+    <div class="swiper CSP_slider SB_Swiper_{{ sectionId }}">
+      <div class="swiper-wrapper {% if slideShowSetting.apply_fix_height == "0" -%}swiper_auto_height{% endif %} {% if slideShowSetting.sectionType == "image_with_text" %}ss_slide_width_image{% endif %}">
+        {% for i in (0..blockCount) %}
+          {% assign my_slideItem = slideShowData.sub_section_json[i] %}
+          {% assign checkDate = false %}
+          {% assign isStartDate = my_slideItem.is_start_date %}
+          {% assign isEndDate = my_slideItem.is_end_date  %}
+          {% assign start_date = my_slideItem.start_date | date: "%s" %}
+          {% assign end_date = my_slideItem.end_date | date: "%s" %}
+          {%- if isStartDate == "1" and isEndDate == "1" -%}
+            {% if today_date > start_date and today_date < end_date %}
+              {% assign checkDate = true %}
+            {% endif %}
+          {% elsif isStartDate == "0" and isEndDate == "1" %}
+            {% if today_date < end_date %}
+              {% assign checkDate = true %}
+            {% endif %}
+          {% elsif isStartDate == "1" and isEndDate == "0" %}
+            {% if today_date > start_date %}
+              {% assign checkDate = true %}
+            {% endif %}
+          {%- else -%}
+            {% assign checkDate = true %}
+          {%- endif -%}
+          {% assign checkProductBanner = true %}
+          {% if my_slideItem.apply_specific_product == "1" %}
+            {% assign checkProductBanner = false %}
+            {% assign productCount = my_slideItem.total_specific_product %}
+            {% for j in (0..productCount) %}
+              {% assign my_product = my_slideItem.specific_product[j] %}
+              {% if my_product.id contains product.id %}
+                {% assign checkProductBanner = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {%- if my_slideItem.status == "1" and  checkDate and checkProductBanner -%}
+            {%- if slideShowSetting.sectionType == "image_with_text" -%}
+                {% capture slideCaptionCls %} ss-align-{{my_slideItem.slide_mobile_alignment}} ss-lg-align-{{my_slideItem.slide_alignment}} {% endcapture %}
+            {% else %}
+              {% capture slideCaptionCls %} ss-position-{{my_slideItem.slide_mobile_alignment}} ss-lg-position-{{my_slideItem.slide_alignment}}{% endcapture %}
+            {% endif %}
+            <div class="swiper-slide {% if slideShowSetting.sectionType == "image_with_text" -%} ss_image_{{ my_slideItem.image_width }} {{ slideCaptionCls }}  {% if my_slideItem.image_placement == "image-second" -%}ss_slide_reverse{% endif %}{% endif %}" >
+              {% assign slideItemlink = slideShowData.sub_section_json[i].button[0] %}
+              {%- if my_slideItem.apply_slide_link == "1" -%}
+                <a class="ss-slide-link" href="{{my_slideItem.slide_link}}">
+              {%- endif -%}
+              <div class="ss-slide-image {% if my_slideItem.slide_type != "image" %}ss-slide-video{% endif %} {% if isApplyFixHeight == "1" %}csp-fix-height{% endif %}">
+                {% if my_slideItem.slide_type == "image" %}
+                  {%- if my_slideItem.mobile_image_url != blank -%}
+                    {% if my_slideItem.image_url != blank  %}
+                        <img class="ss-si-img ss-si-desktop swiper-lazy" alt="{{my_slideItem.title  }}" loading="lazy" fetchpriority="high" src="{{ my_slideItem.image_url}}"/>
+                    {%-else -%}
+                      {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+                      {{ "lifestyle-" | append: current | placeholder_svg_tag: "placeholder-svg" }}
+                    {% endif %}
+                    <img class="ss-si-img ss-si-mobile swiper-lazy" alt="{{my_slideItem.title  }}" loading="lazy" fetchpriority="high" src="{{my_slideItem.mobile_image_url }}"/>
+                  {%- else -%}
+                    {% if  my_slideItem.image_url != blank  %}
+                      <img class="ss-si-img swiper-lazy" alt="{{my_slideItem.title  }}" loading="lazy" fetchpriority="high" src="{{ my_slideItem.image_url}}"/>
+                    {%-else -%}
+                      {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+                      {{ "lifestyle-" | append: current | placeholder_svg_tag: "placeholder-svg" }}
+                    {% endif %}
+                  {%- endif -%}
+                {% else %}
+                  <div class="csp-slide-video-embed">
+                    {% assign isMobile = false %}
+                    {% if my_slideItem.mobile_video_url != blank  %}
+                      {% assign isMobile = true %}
+                    {% endif %}
+                    {% if my_slideItem.video_url != blank  %}
+                      {% render "CSP-Video", video_url: my_slideItem.video_url,isMobileVideo: isMobile, setting: slideShowSetting, className: "csp-video-desktop", forloop:forloop, autoPlay: my_slideItem.video_auto_paly%}
+                    {% endif %}
+                    {%- if my_slideItem.mobile_video_url != blank -%}
+                      {% render "CSP-Video", video_url: my_slideItem.mobile_video_url,isMobileVideo: isMobile, setting:slideShowSetting,className: "csp-video-mobile", forloop:forloop, autoPlay: my_slideItem.video_auto_paly%}
+                    {%- endif -%}
+                  </div>
+                {% endif %}
+              </div>
+              {% if my_slideItem.show_overlay == "1" and  slideShowSetting.sectionType != "image_with_text"%}
+                <div class="ss-slide-overlay ss-slide-overlay-{{i}}"></div>
+              {% endif %}
+              {% if my_slideItem.video_auto_paly == "0" and my_slideItem.slide_type == "video" %}
+                <span class="ss_playBtn"></span>
+              {% endif %}
+              <div class="ss-slide-caption {% if slideShowSetting.sectionType != "image_with_text" -%}{{ slideCaptionCls }}{% endif %}">
+                <div class="ss-slide-contain ss-slide-contain-{{i}} ss-text-{{my_slideItem.text_mobile_alignment}} ss-lg-text-{{my_slideItem.text_alignment}}">
+                  {%- if my_slideItem.title_show == "1" and my_slideItem.title != "null"  -%}<h2>{{my_slideItem.title}}</h2>{%- endif -%}
+                  {%- if my_slideItem.subheading != "null"  -%}<h6>{{my_slideItem.subheading}}</h6>{%- endif -%}
+                  {%- if my_slideItem.text != blank and my_slideItem.text != "null" -%}<div class="ss-slide-text">{{my_slideItem.text}}</div>{%- endif -%}
+                  <ul class="ss-slide-button">
+                    {%- for j in (0..1) -%}
+                      {% assign slideItemButton = slideShowData.sub_section_json[i].button[j] %}
+                      {%- if slideItemButton.status == "1" -%}
+                        <li><a class="ss-btn ss-btn-{{j}}" href="{% if slideItemButton.link != "null" %}{{slideItemButton.link}}{% endif %}">{% if slideItemButton.label != "null" %}{{slideItemButton.label}}{% endif %}</a></li>
+                      {%- endif -%}
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+              {% if my_slideItem.slide_type == "image" %}<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>{%- endif -%}
+              {%- if my_slideItem.apply_slide_link == "1" -%}
+                </a>
+              {%- endif -%}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% if slideShowSetting.sectionType != "image_with_text" %}
+        {%- if slideShowSetting.show_arrow == "1" -%}
+          <span class="swiper-button-next"></span>
+          <span class="swiper-button-prev"></span>
+        {%- endif -%}
+        {%- if slideShowSetting.show_dots == "1" -%}
+          <div class="swiper-pagination"></div>
+        {%- endif -%}
+        {%- if slideShowSetting.scrollbar == "1" -%}
+          <div class="swiper-scrollbar"></div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+{%- style -%}
+  {% if slideShowSetting.apply_container == "1" %}
+    .scheduled-banner-slideShow-{{ sectionId }} .csp_container {max-width: {{slideShowSetting.container_width}}}
+  {% endif %}
+  {%- if slideShowSetting.sectionType != "image_with_text" -%}
+    .SB_Swiper_{{ sectionId }} .csp-embed-iframe, .SB_Swiper_{{ sectionId }} .swiper-slide{display:none}
+    .SB_Swiper_{{ sectionId }}.swiper-initialized .csp-embed-iframe{display:inline-block}
+    .SB_Swiper_{{ sectionId }} .swiper-slide:first-child, .SB_Swiper_{{ sectionId }}.swiper-initialized .swiper-slide{display:block}
+  {% else %}
+    .csp_container .swiper.SB_Swiper_{{ sectionId }} .ss-slide-caption{display:block}
+  {% endif %}
+  {%- for i in (0..blockCount) -%}
+    {%- assign my_slideItem = slideShowData.sub_section_json[i] -%}
+    {%- if my_slideItem.status == "1" -%}
+      {%- if my_slideItem.show_text_box == "1" -%}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}}{background-color:{{my_slideItem.show_text_box_color}};}
+      {% endif %}
+      .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} h6{font-size:{{my_slideItem.subheading_size}}px;color:{{my_slideItem.subheading_color}};{% if my_slideItem.subheading_family != "null"%}font-family:{{my_slideItem.subheading_family }} {% endif %}}
+      .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} h2{font-size:{{my_slideItem.title_size}}px;color:{{my_slideItem.title_color}}; {% if my_slideItem.title_family != "null"%}font-family:{{my_slideItem.title_family }} {% endif %}}
+      .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} p{font-size:{{my_slideItem.text_size}}px;color:{{my_slideItem.text_color}};{% if my_slideItem.text_family != "null"%}font-family:{{my_slideItem.text_family }} {% endif %}}
+      .SB_Swiper_{{ sectionId }} .ss-slide-overlay-{{i}} {background-color:{{my_slideItem.overlay_color}};}
+      {%- for j in (0..1) -%}
+        {% assign slideItemButton = slideShowData.sub_section_json[i].button[j] %}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} .ss-btn-{{j}} {background-color:{{ slideItemButton.bc_color }};color:{{ slideItemButton.text_color }};border-color:{{ slideItemButton.border_color }};border-radius:{{ slideItemButton.border_radius }}px;{% if slideItemButton.font_family != blank%}font-family:{{slideItemButton.font_family }} {% endif %}}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} .ss-btn-{{j}}:hover{background-color:{{ slideItemButton.bc_hover_color }};border-color:{{ slideItemButton.border_hover_color }};color:{{ slideItemButton.text_hover_color }};}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if isApplyFixHeight == "1" -%}
+    .SB_Swiper_{{ sectionId }} .swiper-slide .ss-slide-image{height:{{slideShowSetting.desktop_height}}px}
+  {%- endif -%}
+  @media screen and (max-width: 767px) {
+    {%- if isApplyFixHeight == "1" -%}
+      .SB_Swiper_{{ sectionId }} .swiper-slide .ss-slide-image{height:{{slideShowSetting.mobile_height}}px}
+    {%- endif -%}
+    {%- for i in (0..blockCount) -%}
+      {%- assign my_slideItem = slideShowData.sub_section_json[i] -%}
+      {%- if my_slideItem.status == "1" -%}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} h6{font-size:{{my_slideItem.subheading_mobile_size}}px;color:{{my_slideItem.subheading_mobile_color}};}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} h2{font-size:{{my_slideItem.title_mobile_size}}px;color:{{my_slideItem.title_mobile_color}};}
+        .SB_Swiper_{{ sectionId }} .ss-slide-contain-{{i}} p{font-size:{{my_slideItem.text_mobile_size}}px;color:{{my_slideItem.text_mobile_color}};}
+      {%- endif -%}
+    {%- endfor -%}
+  }
+{%- endstyle -%}{% schema %}
+            {
+                    "name": "CSP-Hero-Banner",
+                    "settings": [],
+                    "presets": [{"name": "CSP-Hero-Banner"}]
+            }
+            {% endschema %}<script>
+            var sectionType = "{{slideShowSetting.sectionType}}";
+                if( sectionType != "image_with_text"){
+                window.addEventListener("load", function() {
+                    var autoplay = {{ slideShowSetting.autoplay | default: 0}};
+                    var effect_show = {{ slideShowSetting.fade_effect}};
+                    var autoHeight = {{ slideShowSetting.auto_height | default:0}};
+                    var swiper = new Swiper(".SB_Swiper_{{ sectionId }}", {
+                    navigation: {
+                        nextEl: ".SB_Swiper_{{ sectionId }} .swiper-button-next",
+                        prevEl: ".SB_Swiper_{{ sectionId }} .swiper-button-prev",
+                    },
+                    effect: effect_show === 1 ? "fade" : "",
+                        pagination: {
+                        el: ".SB_Swiper_{{ sectionId }} .swiper-pagination",
+                        type: "{{ slideShowSetting.show_dots_type }}",
+                        clickable: true,
+                        },
+                        scrollbar: {
+                        hide: true,
+                        enabled: true,
+                        el: ".SB_Swiper_{{ sectionId }} .swiper-scrollbar"
+                        },
+                        keyboard: {
+                        enabled: {{ slideShowSetting.keyboard_control }} === 1,
+                        },
+                        autoplay: autoplay === 1 ? {
+                        delay: {{ slideShowSetting.autoplay_speed | times: 1000 }},
+                        disableOnInteraction: false,
+                        } : false,
+                        loop: {{ slideShowSetting.infinite_loop }} === 1,
+                        lazy: true,
+                        autoHeight: autoHeight === 1,
+                        slidesPerView: "auto",
+                        on: {
+                        slideChange: function () {
+                            const activeIndex = this.activeIndex;
+                            this.slides[this.activeIndex].closest(".CSP_slider").querySelectorAll(".swiper-slide").forEach(function (this_click,index) {
+                            let swiperVideoType = this_click?.querySelector(".csp-slide-video-embed .csp_video")?.getAttribute("data-videotype");
+                            const autoPlya = this_click?.querySelector(".csp-slide-video-embed .csp_video")?.getAttribute("data-autoPlay");
+                            
+                            if( activeIndex == index && autoPlya == "1"){
+                                CSPVideoAction(this_click,swiperVideoType,"play");
+                            }else{
+                                CSPVideoAction(this_click,swiperVideoType,"pause");
+                                document.querySelectorAll(".ss_playBtn").forEach(function (this_click) {
+                                this_click?.classList.remove("is-active");
+                                })
+                            }
+                            });
+                        },
+                        init: function () {
+                            const activeIndexOnload = this.activeIndex;
+                            document.querySelectorAll(".swiper-slide").forEach(function (this_click,index) {
+                            const swiperVideoTypeOnload = this_click?.querySelector(".csp_video")?.getAttribute("data-videotype");
+                            if( (activeIndexOnload == index) && (swiperVideoTypeOnload == "youtube")){
+                                this_click?.closest(".swiper-slide")?.querySelector("iframe")?.contentWindow?.postMessage('{"event":"command","func":"playVideo","args":""}', "*");
+                            }
+                            })
+                        },
+                        }
+                    });
+                });
+            }
+            document.querySelectorAll(".ss_playBtn").forEach(function (this_click) {
+                this_click.addEventListener("click", (event) => {
+                event.preventDefault(), event.stopImmediatePropagation();
+                const swiperVideoType = this_click?.closest(".swiper-slide")?.querySelector(".csp_video")?.getAttribute("data-videotype");
+                if(this_click?.classList.contains("is-active")){
+                    this_click?.classList.remove("is-active");
+                    CSPVideoAction(this_click,swiperVideoType,"pause");
+                }else{
+                    this_click?.classList.add("is-active");
+                    CSPVideoAction(this_click,swiperVideoType,"play");
+                }
+                });
+            });
+            function CSPVideoAction(this_click, swiperVideoType,action) {
+                const isPlay = action === "play";
+                if(swiperVideoType == "youtube"){
+                this_click?.closest(".swiper-slide")?.querySelectorAll("iframe").forEach(function (this_video, vIndex){
+                    const message = isPlay ? '{"event":"command","func":"playVideo","args":""}' : '{"event":"command","func":"pauseVideo","args":""}';
+                    this_video.contentWindow?.postMessage(message, "*");
+                })
+                }else if(swiperVideoType == "vimeo"){
+                this_click?.closest(".swiper-slide")?.querySelectorAll("iframe").forEach(function (this_video, vIndex){
+                    let vimeoSrc = this_video?.getAttribute("src");
+                    vimeoSrc = vimeoSrc.replace(`autoplay=${isPlay ? "0" : "1"}`,`autoplay=${isPlay ? "1" : "0"}`);
+                    this_video.setAttribute("src",vimeoSrc);
+                })
+                }else if(swiperVideoType == "mp4"){
+                this_click?.closest(".swiper-slide")?.querySelectorAll("video").forEach(function (this_video, vIndex){
+                    isPlay ? this_video.play() : this_video.pause();
+                })
+                }
+            }
+            </script>

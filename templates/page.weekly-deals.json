@@ -1,0 +1,375 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "left",
+        "show_page_title": true,
+        "page_title_alignment": "center",
+        "container": "1370",
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "25bcb4cf-3aa4-4cb5-b78f-4074368db4a6": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "template--16854807609594__25bcb4cf-3aa4-4cb5-b78f-4074368db4a6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DACAW23-Weekly-Deals-banner.jpg",
+            "mobile_image": "shopify://shop_images/DACAW23-Weekly-Deals-MOB-PAGE-BANNER.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16854807609594__25bcb4cf-3aa4-4cb5-b78f-4074368db4a6-image-1"
+      ],
+      "custom_css": [
+        ".text {font-size: 18px; padding-top: 3px;}"
+      ],
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0,
+        "block_title": "WEEKLY DEALS",
+        "block_text": "Check back for fresh new deals. Stack up to 5 discount codes at once and make the most of our multiple offers. Please note only one discount will apply per product.",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "",
+        "block_dots_color": "",
+        "block_dots_border": "",
+        "block_arrows": true,
+        "block_arrows_bg": "",
+        "block_arrows_color": "",
+        "block_arrows_border": "",
+        "lookbook_style": "1"
+      }
+    },
+    "7c7325b7-36f5-4b92-b68d-b75e26234dee": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "659f475b-6c7e-4820-a19c-4856e4e97f69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19-4-24-SS24-DAC-15-OFF-DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/19-4-24-SS24-DAC-15-OFF-SML-MAIL.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/clearance",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "659f475b-6c7e-4820-a19c-4856e4e97f69"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "",
+        "block_dots_color": "",
+        "block_dots_border": "",
+        "block_arrows": true,
+        "block_arrows_bg": "",
+        "block_arrows_color": "",
+        "block_arrows_border": "",
+        "lookbook_style": "1"
+      }
+    },
+    "weekly_deal_pycTfV": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-SS24-BOXER-TILE.jpg",
+        "title": "Selected 3PK Boxers for £7.50",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£7.50</div>\n   <div class=\"price-item price-item--regular\">£29</div>\n</div>\n<label>\n</label>",
+        "button1": "Get deal*",
+        "url": "https://www.duckandcover.co.uk/collections/3pk-boxers",
+        "CustomCode": "BOXERSAVING",
+        "description": "Introducing our Men's 3-Pack Boxer shorts—a must-have style and comfort. Just use code: BOXERSAVING to grab yours for £7.50!"
+      }
+    },
+    "halo_product_block_7_wTgcqk": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "3pk-boxers",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_TE9aik": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/dac-ss24-claspar-tile.jpg",
+        "title": "Claspar Trainers for £18.99",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">For £18.99</div>\n   <div class=\"price-item price-item--regular\">£55</div>\n</div>\n<label>\n</label>",
+        "button1": "Get deal*",
+        "url": "https://www.duckandcover.co.uk/collections/claspar",
+        "CustomCode": "CLASPAR",
+        "description": "Treat yourself to a new pair of trainers this Spring! Grab this bargain and save yourself over £35 when you use code: CLASPAR"
+      }
+    },
+    "halo_product_block_7_M8fKyD": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "claspar",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_tQW7gz": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DACAW23-Weekly-Deals-tranfold-tile.jpg",
+        "title": "Tranfold Jeans for £12.99",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">From £12.99</div>\n   <div class=\"price-item price-item--regular\">£60</div>\n</div>\n<label>\n73% OFF </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/tranfold",
+        "CustomCode": "TRANFOLD",
+        "description": "Our premium jeans, originally £60, are now a steal at just £12.99! Don't miss out on this incredible deal – upgrade your denim game today!"
+      }
+    },
+    "halo_product_block_7_K67Hpa": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "tranfold",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_Xzc6y3": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DACAW23-Weekly-Deals-5pk-tee-tile-1.gif",
+        "title": "5PK Graphic Tee's for £19.99",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">From £19.99</div>\n   <div class=\"price-item price-item--regular\">£75</div>\n</div>\n<label>\n73% OFF </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/5pk-graphic-t-shirts",
+        "CustomCode": "DAC5PK",
+        "description": "Each Tee is equal to only £4 each for Comonwell or Ventmans Packs when you use code: DAC5PK at checkout! This ideal is not to be missed!"
+      }
+    },
+    "halo_product_block_7_f6YMqe": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "5pk-graphic-t-shirts",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25bcb4cf-3aa4-4cb5-b78f-4074368db4a6",
+    "7c7325b7-36f5-4b92-b68d-b75e26234dee",
+    "weekly_deal_pycTfV",
+    "halo_product_block_7_wTgcqk",
+    "weekly_deal_TE9aik",
+    "halo_product_block_7_M8fKyD",
+    "weekly_deal_tQW7gz",
+    "halo_product_block_7_K67Hpa",
+    "weekly_deal_Xzc6y3",
+    "halo_product_block_7_f6YMqe"
+  ]
+}

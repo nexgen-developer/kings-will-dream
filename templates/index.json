@@ -1,0 +1,1055 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "halo_icon_with_text_b8UfCm": {
+      "type": "halo-icon-with-text",
+      "blocks": {
+        "icon_text_WpYFr3": {
+          "type": "icon_text",
+          "settings": {
+            "icon_svg": "",
+            "heading": "FREE STANDARD UK DELIVERY",
+            "sub_heading": "on all orders over £50",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "icon_text_BENNtV": {
+          "type": "icon_text",
+          "settings": {
+            "icon_svg": "",
+            "heading": "NEW AW25 ARRIVALS",
+            "sub_heading": "See the collection |",
+            "link_title": "Shop now",
+            "link": "shopify://collections/new-arrivals"
+          }
+        },
+        "icon_text_94cCcy": {
+          "type": "icon_text",
+          "settings": {
+            "icon_svg": "",
+            "heading": "SUBSCRIBE FOR EXCLUSIVE OFFERS",
+            "sub_heading": "Sign up to our newsletter",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_WpYFr3",
+        "icon_text_BENNtV",
+        "icon_text_94cCcy"
+      ],
+      "settings": {
+        "show_icon_with_text": true,
+        "container": "full",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 5,
+        "padding_bottom_mobile": 6,
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "wide",
+        "alignment": "center",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true,
+        "layout_style": "1",
+        "content_style": "1",
+        "enable_border": false,
+        "background_color": "#000",
+        "text_color": "#ffffff",
+        "svg_color": "",
+        "title_color": "#ffffff",
+        "title_font": "font_1",
+        "title_font_size": 14,
+        "title_mobile_font_size": 12,
+        "title_font_weight": "700",
+        "title_text_transform": "none",
+        "text_font_size": 12,
+        "text_font_weight": "400",
+        "text_text_transform": "none",
+        "show_bg_img": false,
+        "block_bg_position_x": "center",
+        "block_bg_position_y": "center",
+        "block_bg_repeat": "no-repeat",
+        "block_bg_attachment": "scroll",
+        "block_bg_size": "cover"
+      }
+    },
+    "halo_slideshow_zPDWfc": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "image_kUzA4D": {
+          "type": "image",
+          "name": "Base",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_Base.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Base.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-arrivals",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_nBK64H": {
+          "type": "image",
+          "name": "27th Feb (Pay Day)",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_copy.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Pay_Day_copy.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-arrivals",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_kUzA4D",
+        "image_nBK64H"
+      ],
+      "name": "Base Banner",
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_dots_color": "",
+        "block_dots_border": "#000000",
+        "block_arrows": true,
+        "block_arrows_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_arrows_color": "",
+        "block_arrows_border": "#000000",
+        "lookbook_style": "1"
+      }
+    },
+    "halo_image_gallery_ByWM9L": {
+      "type": "halo-image-gallery",
+      "blocks": {
+        "image_x9UeLB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Hoodies_copy.png",
+            "btn_text": "",
+            "link": "shopify://collections/kids"
+          }
+        },
+        "image_jxh48i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Tees_217b96bc-33e9-43d0-9ea3-0782d64f5778.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/t-shirts"
+          }
+        },
+        "image_akPfNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Hoodies_cd69bec1-f625-4b33-8154-99d7a2d6858d.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/hoodies"
+          }
+        },
+        "image_bR9wdc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Accessories_e238500d-8f49-44ff-aa4f-fea4e14bf470.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "image_x9UeLB",
+        "image_jxh48i",
+        "image_akPfNW",
+        "image_bR9wdc"
+      ],
+      "name": "Base Quick Links",
+      "settings": {
+        "show_image_gallery": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "no-distance",
+        "col_border": 0,
+        "block_action": "link",
+        "block_btn": "2",
+        "block_view_btn": "1",
+        "block_view_btn_text": "",
+        "block_view_btn_link": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": true,
+        "block_arrows": true
+      }
+    },
+    "9e2400a3-bdb2-4ec4-a76b-5ea5ae61cfdf": {
+      "type": "halo-custom-text-button",
+      "custom_css": [
+        ".custom-text-content {font-size: 11px;}"
+      ],
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "",
+        "block_content": "Kings Will Dream is setting a new standard for streetwear with a modern edge and is quickly becoming one of the most popular names in men’s fashion. Kings Will Dream pushes the boundaries of design, trend and quality as they cement their place in streetwear royalty.",
+        "block_align": "center",
+        "btn": "1",
+        "btn_text": "",
+        "btn_link": "",
+        "background_color": "#fff",
+        "text_color": "#000000"
+      }
+    },
+    "205c4f7a-d208-44ad-9a74-a5715aff1348": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "image_wDw9NP": {
+          "type": "image",
+          "name": "Studio",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/July-Payday-KWD-DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/July-Payday-KWD-MOB.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-arrivals",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_CX9FEV": {
+          "type": "image",
+          "name": "Studio",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_V2_Studio_e06c239b-5302-40b8-acae-440cf1b4862a.png",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_V2_Studio_459ecb54-9585-4578-b450-5e69fe5f8186.png",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/studio-mens",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_wDw9NP",
+        "image_CX9FEV"
+      ],
+      "custom_css": [
+        ".heroCarousel-title {display: none;}"
+      ],
+      "name": "Studio Banner",
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_dots_color": "",
+        "block_dots_border": "#000000",
+        "block_arrows": true,
+        "block_arrows_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_arrows_color": "",
+        "block_arrows_border": "#000000",
+        "lookbook_style": "1"
+      }
+    },
+    "halo_image_gallery_CEUEYz": {
+      "type": "halo-image-gallery",
+      "blocks": {
+        "image_P3V7dK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Joggers_copy.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/studio-kids"
+          }
+        },
+        "image_9NPeLW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Tees.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/studio-t-shirts"
+          }
+        },
+        "image_A6bBnT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Hoodies.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/studio-hoodies"
+          }
+        },
+        "image_7hLhQL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Joggers.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/studio-jog-trackpants"
+          }
+        }
+      },
+      "block_order": [
+        "image_P3V7dK",
+        "image_9NPeLW",
+        "image_A6bBnT",
+        "image_7hLhQL"
+      ],
+      "name": "Studio Quick Links",
+      "settings": {
+        "show_image_gallery": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "no-distance",
+        "col_border": 0,
+        "block_action": "link",
+        "block_btn": "2",
+        "block_view_btn": "1",
+        "block_view_btn_text": "",
+        "block_view_btn_link": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": true,
+        "block_arrows": true
+      }
+    },
+    "2cde94e6-7c54-4581-93d6-47725c101409": {
+      "type": "halo-product-block",
+      "disabled": true,
+      "custom_css": [
+        ".text {font-size: 14px;}",
+        ".price-item {font-size: 14px;}",
+        ".card-title {margin: 0 0 0px;}"
+      ],
+      "settings": {
+        "display_product_block": true,
+        "container": "1860",
+        "boxed_container": false,
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "slider",
+        "col": "slim",
+        "block_collection": "new-arrivals",
+        "block_limit": 4,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 130,
+        "show_add_to_cart": false,
+        "block_per_row": "4",
+        "block_infinite_scroll": false,
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4": {
+      "type": "halo-image-gallery",
+      "blocks": {
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Tees_217b96bc-33e9-43d0-9ea3-0782d64f5778.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/t-shirts"
+          }
+        },
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Accessories_e238500d-8f49-44ff-aa4f-fea4e14bf470.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-3",
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image_gallery": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "no-distance",
+        "col_border": 0,
+        "block_action": "link",
+        "block_btn": "2",
+        "block_view_btn": "1",
+        "block_view_btn_text": "",
+        "block_view_btn_link": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": true,
+        "block_arrows": true
+      }
+    },
+    "e0946f9f-e0fa-47e1-908b-4866f10b1c81": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "template--16746689888506__e0946f9f-e0fa-47e1-908b-4866f10b1c81-16781156832b7b81be-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_V1_Studio.png",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_V1_Studio.png",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16746689888506__e0946f9f-e0fa-47e1-908b-4866f10b1c81-16781156832b7b81be-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 0,
+        "show_hoverImage": false
+      }
+    },
+    "halo_image_gallery_RHgwY7": {
+      "type": "halo-image-gallery",
+      "blocks": {
+        "image_bnKTYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Tees_217b96bc-33e9-43d0-9ea3-0782d64f5778.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/t-shirts"
+          }
+        },
+        "image_nwXFXY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Accessories_e238500d-8f49-44ff-aa4f-fea4e14bf470.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "image_bnKTYh",
+        "image_nwXFXY"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image_gallery": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "no-distance",
+        "col_border": 0,
+        "block_action": "link",
+        "block_btn": "2",
+        "block_view_btn": "1",
+        "block_view_btn_text": "",
+        "block_view_btn_link": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": true,
+        "block_arrows": true
+      }
+    },
+    "halo_fullwidth_banner_x69wQ7": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_KhWQxM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FOOTER_-_Desktop_d2cd79a8-274f-41ba-a879-deb9ae422cdf.jpg",
+            "mobile_image": "shopify://shop_images/FOOTER_-_Mobile_3b275c34-2f46-4609-9c9e-dca87fb69801.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_KhWQxM"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "halo_newsletter_qjxHGq": {
+      "type": "halo-newsletter",
+      "custom_css": [
+        ".halo-block-header .desc {color: white;}",
+        ".halo-block-header {position: relative; margin: 0 0 1px;}"
+      ],
+      "settings": {
+        "show_newsletter": true,
+        "padding_top": 1,
+        "padding_bottom": 10,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 1,
+        "padding_bottom_mobile": 0,
+        "show_newsletter_bg_img": false,
+        "newsletter_bg_position_x": "center",
+        "newsletter_bg_position_y": "center",
+        "newsletter_bg_repeat": "no-repeat",
+        "newsletter_bg_attachment": "scroll",
+        "newsletter_bg_size": "cover",
+        "newsletter_heading": "",
+        "newsletter_text": "<p>Subscriber Exclusive. Sign up for an extra 20% off.</p>",
+        "newsletter_text_2": "",
+        "block_bg": "#000",
+        "newsletter_color": "#ffffff",
+        "newsletter_border": "#ffffff",
+        "newsletter_input_bg": "#FFFFFF",
+        "newsletter_input_color": "#000000"
+      }
+    },
+    "6a2d9346-e7f0-4e21-a77f-79eeac908797": {
+      "type": "halo-product-block",
+      "disabled": true,
+      "custom_css": [
+        ".text {font-size: 14px;}",
+        ".price-item {font-size: 14px;}",
+        ".card-title {margin: 0 0 0px;}"
+      ],
+      "settings": {
+        "display_product_block": true,
+        "container": "1770",
+        "boxed_container": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 30,
+        "block_title": "NEW SS25 ARRIVALS",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "slider",
+        "col": "slim",
+        "block_collection": "mens",
+        "block_limit": 4,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": false,
+        "block_per_row": "4",
+        "block_infinite_scroll": false,
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "746fe2ac-65b1-46bd-a19d-8fd87d2490da": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "image_GmXDnU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop-Banner.gif",
+            "mobile_image": "shopify://shop_images/Mobile-Banner_75ce5885-9816-4d7d-93bd-66191bbafebb.gif",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_GmXDnU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".video {object-fit: none;}"
+      ],
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "",
+        "block_dots_color": "",
+        "block_dots_border": "",
+        "block_arrows": true,
+        "block_arrows_bg": "",
+        "block_arrows_color": "",
+        "block_arrows_border": "",
+        "lookbook_style": "1"
+      }
+    },
+    "c5e2553f-2344-4dbb-af98-d66eeadaef27": {
+      "type": "halo-newsletter",
+      "disabled": true,
+      "custom_css": [
+        ".halo-block-header .desc {color: white;}",
+        ".halo-block-header {position: relative; margin: 0 0 1px;}"
+      ],
+      "settings": {
+        "show_newsletter": true,
+        "padding_top": 1,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 1,
+        "padding_bottom_mobile": 0,
+        "show_newsletter_bg_img": false,
+        "newsletter_bg_position_x": "center",
+        "newsletter_bg_position_y": "center",
+        "newsletter_bg_repeat": "no-repeat",
+        "newsletter_bg_attachment": "scroll",
+        "newsletter_bg_size": "cover",
+        "newsletter_heading": "",
+        "newsletter_text": "",
+        "newsletter_text_2": "",
+        "block_bg": "#000",
+        "newsletter_color": "#ffffff",
+        "newsletter_border": "#000000",
+        "newsletter_input_bg": "#FFFFFF",
+        "newsletter_input_color": "#000000"
+      }
+    },
+    "halo_fullwidth_banner_MtD9yX": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_n8XYF3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_Base_Kids_128be216-3da9-4f33-b563-7b737b121349.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_Base_Kids_e4516f58-972b-40a5-92fd-b7564227e584.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/kids",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_n8XYF3"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 35,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "c87b5a9e-f50e-48d4-93f2-38aa2d4f1d29": {
+      "type": "halo-custom-text-button",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "",
+        "block_content": "Bold style, playful comfort, eye-catching graphics and premium details empower every young king to dream big.",
+        "block_align": "center",
+        "btn": "7",
+        "btn_text": "",
+        "btn_link": "",
+        "background_color": "#000",
+        "text_color": "#ffffff"
+      }
+    },
+    "169381588532bf4d05": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "halo_icon_with_text_b8UfCm",
+    "halo_slideshow_zPDWfc",
+    "halo_image_gallery_ByWM9L",
+    "9e2400a3-bdb2-4ec4-a76b-5ea5ae61cfdf",
+    "205c4f7a-d208-44ad-9a74-a5715aff1348",
+    "halo_image_gallery_CEUEYz",
+    "2cde94e6-7c54-4581-93d6-47725c101409",
+    "f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4",
+    "e0946f9f-e0fa-47e1-908b-4866f10b1c81",
+    "halo_image_gallery_RHgwY7",
+    "halo_fullwidth_banner_x69wQ7",
+    "halo_newsletter_qjxHGq",
+    "6a2d9346-e7f0-4e21-a77f-79eeac908797",
+    "746fe2ac-65b1-46bd-a19d-8fd87d2490da",
+    "c5e2553f-2344-4dbb-af98-d66eeadaef27",
+    "halo_fullwidth_banner_MtD9yX",
+    "c87b5a9e-f50e-48d4-93f2-38aa2d4f1d29",
+    "169381588532bf4d05"
+  ]
+}
