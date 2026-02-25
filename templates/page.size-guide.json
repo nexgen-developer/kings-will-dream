@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "left",
+        "show_page_title": true,
+        "page_title_alignment": "center",
+        "container": "1370",
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "tabs_size_guide_mPNmMd": {
+      "type": "tabs-size-guide",
+      "blocks": {
+        "cat_mens": {
+          "type": "category",
+          "settings": {
+            "heading": "Mens",
+            "measuring_image_url": "https://cdn.shopify.com/s/files/1/1260/8215/files/image.jpg?v=1743384026"
+          }
+        },
+        "tbl_mens_tops": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Tops",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": ", XS, S, M, L, XL, XXL, XXXL, 4XL",
+            "rows_data": "Chest (To Fit) Inches, 32-34, 35-37, 38-40, 41-43, 44-46, 47-49, 50-52, 52-54\nChest (To Fit) Cm, 81-86, 89-94, 97-102, 104-109, 112-117, 119-124, 127-132, 132-137",
+            "note": ""
+          }
+        },
+        "tbl_mens_joggers": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Joggers, Shorts & Swimwear",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": ", XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL",
+            "rows_data": "Waist (To Fit) Inches, 28, 30-32, 33-35, 36-38, 39-41, 42-44, 45-47, 48-50, 51-53\nWaist (To Fit) Cm, 71, 76-81, 84-89, 91-97, 99-104, 107-112, 114-119, 122-127, 130-135",
+            "note": ""
+          }
+        },
+        "tbl_mens_jeans": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Jeans & Trousers",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "Size, XS, S, M, L, XL, 2XL, 3XL, 4XL, 5XL",
+            "rows_data": "Waist (to Fit) Inches, 26 - 28, 30 - 32, 33 - 35, 36 - 38, 39 - 41, 42 - 44, 45 - 47, 48 - 50, 51 - 53\nWaist (To Fit) Cm, 66-71, 76-81, 84-89, 91-97, 99-104, 107-112, 114-119, 122-127, 130-135",
+            "note": ""
+          }
+        },
+        "tbl_mens_jeans_single": {
+          "type": "table",
+          "settings": {
+            "tab_name": "",
+            "is_sub_table": true,
+            "heading": "Leg Length",
+            "columns": ", S (Short), R (Regular), L (Long)",
+            "rows_data": "Length (To Fit) Inches, 30, 32, 34\nLength (To Fit) Cm, 76, 81, 86",
+            "note": ""
+          }
+        },
+        "table_eA3Aia": {
+          "type": "table",
+          "settings": {
+            "tab_name": "",
+            "is_sub_table": true,
+            "heading": "Single sizes",
+            "columns": "Waist (to Fit) Inches, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52",
+            "rows_data": "Waist (To Fit) Cm, 71, 76, 81, 86, 91, 97, 102, 107, 112, 117, 122, 127, 132",
+            "note": ""
+          }
+        },
+        "tbl_mens_boxers": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Boxers",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": ", S, M, L, XL, 2XL",
+            "rows_data": "Waist (to Fit) Inches , 28\" - 30\", 32\" - 34\", 36\" - 38\", 30\" - 42\", 44\" - 46\"\nWaist (To Fit) Cm, 71-76, 81-86, 91-97, 76-107, 112-117",
+            "note": ""
+          }
+        },
+        "tbl_mens_footwear": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Footwear",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": ", 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14",
+            "rows_data": "UK Size, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14\nEuropean Size, 39.5, 40, 40.5, 41, 42, 42.5, 43, 43.5, 44.5, 45, 46, 46.5, 47, 48.5, -\nAmerican Size, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14\nCanadian Size, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 14, -\nJapanese Size, 24.5, 25, 25.5, 26, 26.5, 27, 27.5, 28, 28.5, 29, 29.5, 30, 30.5, 32, -",
+            "note": ""
+          }
+        },
+        "cat_womens": {
+          "type": "category",
+          "settings": {
+            "heading": "Womens",
+            "measuring_image_url": "https://cdn.shopify.com/s/files/1/2006/2579/files/Womens-Measuring-Chart.jpg?v=1743422349"
+          }
+        },
+        "tbl_womens_clothing": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Clothing",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "Clothing Size Guide, XS, S, M, L, XL",
+            "rows_data": "Dress Size, 8, 10, 12, 14, 16\nTo fit Bust (inches), 32, 34, 36, 38, 40\nTo fit Waist (inches), 25, 27, 29, 31, 33\nTo fit Hips (inches), 35, 37, 39, 41, 43",
+            "note": ""
+          }
+        },
+        "tbl_womens_footwear": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Footwear",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "UK, Europe, Length (mm), Standard (D) Width (mm), Wide Fit (EE) Width (mm)",
+            "rows_data": "3, 35.5, 220, 222, 231\n3.5, 36, 224, 225, 234\n4, 37, 229, 228, 237\n4.5, 37.5, 233, 231, 240\n5, 38, 237, 235, 244\n5.5, 39, 241, 237, 246\n6, 39.5, 246, 242, 251\n6.5, 40, 251, 243, 252\n7, 40.5, 254, 248, 257\n7.5, 41, 258, 249, 258\n8, 42, 262, 256, 265\n9, 43, 272, 262, 272",
+            "note": ""
+          }
+        },
+        "tbl_womens_underwear": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Underwear",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "Underwear Size Guide, XS, S, M, L, XL, XXL",
+            "rows_data": "UK, 6, 8, 10, 12, 14, 16\nEUR, 32, 34, 36, 38, 40, 42",
+            "note": ""
+          }
+        },
+        "cat_kids": {
+          "type": "category",
+          "settings": {
+            "heading": "Kids",
+            "measuring_image_url": "https://cdn.shopify.com/s/files/1/2006/2579/files/Kids-Measuring-Chart.jpg?v=1743422348"
+          }
+        },
+        "tbl_kids_clothing": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Clothing",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "Age, XSB (5-6 YRS), SB (7-8 YRS), MB (9-10 YRS), LB (11-12 YRS), XLB (13-14 YRS)",
+            "rows_data": "Height, 45¾in, 50in, 55in, 59¾in, 64¼in\nChest, 24in, 26in, 28¼in, 30¾in, 33¼in\nWaist, 22in, 23¼in, 25in, 26in, 28¾in",
+            "note": ""
+          }
+        },
+        "tbl_kids_footwear": {
+          "type": "table",
+          "settings": {
+            "tab_name": "Footwear",
+            "is_sub_table": false,
+            "heading": "",
+            "columns": "UK Size, Europe, Length (mm), Narrow, Standard, Wide",
+            "rows_data": "4, 20.5, 123, 130, 136, 142\n4.5, 21, 126, 133, 139, 145\n5, 21.5, 130, 136, 142, 148\n5.5, 22, 134, 139, 145, 151\n6, 23, 138, 142, 148, 154\n6.5, 23.5, 142, 145, 151, 157\n7, 24, 146, 148, 154, 160\n7.5, 25, 149, 151, 157, 163\n8, 25.5, 153, 154, 160, 166\n8.5, 26, 157, 156, 162, 168\n9, 26.5, 161, 159, 165, 171\n9.5, 27.5, 165, 162, 168, 174\n10, 28, 169, 165, 171, 177\n10.5, 28.5, 172, 168, 174, 180\n11, 29, 176, 171, 177, 183\n11.5, 30, 180, 174, 180, 186\n12, 30.5, 184, 177, 183, 189\n12.5, 31, 188, 180, 186, 192\n13, 32, 192, 183, 189, 195\n13.5, 32.5, 196, 186, 192, 198\n1, 33, 200, 190, 196, 202\n1.5, 33.5, 205, 193, 199, 205\n2, 34.5, 209, 197, 203, 209\n2.5, 35, 213, 199, 205, 211\n3, 35.5, 217, 202, 208, 214\n3.5, 36, 222, 205, 211, 217\n4, 37, 226, 209, 215, 221\n4.5, 37.5, 230, 213, 219, 225\n5, 38, 234, 218, 224, 230\n5.5, 39, 238, 222, 228, 234\n6, 39.5, 242, 226, 232, 238\n6.5, 40, 247, 230, 236, 242\n7, 40.5, 251, 235, 241, 247\n7.5, 41.5, 255, 239, 245, 251",
+            "note": ""
+          }
+        }
+      },
+      "block_order": [
+        "cat_mens",
+        "tbl_mens_tops",
+        "tbl_mens_joggers",
+        "tbl_mens_jeans",
+        "tbl_mens_jeans_single",
+        "table_eA3Aia",
+        "tbl_mens_boxers",
+        "tbl_mens_footwear",
+        "cat_womens",
+        "tbl_womens_clothing",
+        "tbl_womens_footwear",
+        "tbl_womens_underwear",
+        "cat_kids",
+        "tbl_kids_clothing",
+        "tbl_kids_footwear"
+      ],
+      "custom_css": [
+        ".tabs-size-guid {padding-top: 20px;}"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "tabs_size_guide_mPNmMd"
+  ]
+}
