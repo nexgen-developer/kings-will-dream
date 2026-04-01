@@ -188,11 +188,11 @@
         },
         "image_9TNtGq": {
           "type": "image",
-          "name": "6th March Spring Drop 1)",
+          "name": "Easter Bank Holiday",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_Spring_Drop_1.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Spring_Drop_1.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
