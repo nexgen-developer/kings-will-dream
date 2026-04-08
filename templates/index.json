@@ -140,11 +140,11 @@
         },
         "image_nBK64H": {
           "type": "image",
-          "name": "Pay Day",
+          "name": "Spring Season",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_f2328795-9954-4d7f-8b72-ffb83d28a42e.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Pay_Day_4927df9c-6fbc-4424-b4f4-087c670501ac.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_fdddfc2f-837d-4f15-8b88-028ec78b039e.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_b4e9bccf-a19e-4035-b5a7-12f9abe34105.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
