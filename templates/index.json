@@ -142,6 +142,7 @@
         "image_nBK64H": {
           "type": "image",
           "name": "Spring Season",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_fdddfc2f-837d-4f15-8b88-028ec78b039e.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_b4e9bccf-a19e-4035-b5a7-12f9abe34105.jpg",
@@ -189,7 +190,6 @@
         "image_9TNtGq": {
           "type": "image",
           "name": "Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_051356c4-89ef-4238-8fbd-844ecded38e6.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_6e1e79a8-d879-43b0-97b8-47fd124933be.jpg",
