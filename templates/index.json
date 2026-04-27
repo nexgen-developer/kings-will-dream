@@ -141,11 +141,11 @@
         },
         "image_nBK64H": {
           "type": "image",
-          "name": "Spring Season",
+          "name": "Bank Holiday",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_fdddfc2f-837d-4f15-8b88-028ec78b039e.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_b4e9bccf-a19e-4035-b5a7-12f9abe34105.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_b59414fe-2410-4a23-99bd-a23062a7c0a9.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_aa98b5d9-0cf0-44ed-b502-143079386f09.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
