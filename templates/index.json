@@ -190,6 +190,7 @@
         "image_wwCt4Y": {
           "type": "image",
           "name": "T-Shirt Weather",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-TEE20-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-TEE20-MAIL.jpg",
@@ -237,7 +238,6 @@
         "image_Rz7Vmi": {
           "type": "image",
           "name": "Bank Hol",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-Bank-Hol-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-Bank-Hol-mobile.jpg",
