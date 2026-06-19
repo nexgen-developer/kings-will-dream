@@ -20,7 +20,7 @@
 
 {% render 'header-style' %}
 
-<{% if section.settings.show_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper">
+<{% if section.settings.show_sticky_header %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper">
 	<header class="header header-10 header-inline header-monochrome{% if section.settings.menu != blank %} header--has-menu{% endif %}">
 		{%- liquid
             assign has_top_header = false
@@ -373,6 +373,8 @@
             this.headerBounds = {};
             this.currentScrollTop = 0;
             this.preventReveal = false;
+            this.stickyHeaderType = this.dataset.stickyType || 'up';
+            this.mobileBreakpoint = 1024;
 
             if (!this.header.querySelector('.header-sticky')) {
                 this.onScrollHandler = this.onScroll.bind(this);
@@ -403,15 +405,38 @@
             observer.observe(this.header);
         }
 
+        isMobileViewport() {
+            return window.innerWidth <= this.mobileBreakpoint;
+        }
+
         onScroll() {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
+            if (this.stickyHeaderType === 'always' && this.isMobileViewport()) {
+                if (scrollTop > this.headerBounds.bottom) {
+                    requestAnimationFrame(this.reveal.bind(this));
+                } else if (scrollTop <= this.headerBounds.top) {
+                    requestAnimationFrame(this.reset.bind(this));
+                }
+
+                this.currentScrollTop = scrollTop;
+                return;
+            }
+
             if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-                if(!document.body.classList.contains('open-search')){
+                if (this.stickyHeaderType === 'down') {
+                    if (!this.preventReveal) {
+                        requestAnimationFrame(this.reveal.bind(this));
+                    }
+                } else if(!document.body.classList.contains('open-search')){
                     requestAnimationFrame(this.hide.bind(this));
                 }
             } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-                if (!this.preventReveal) {
+                if (this.stickyHeaderType === 'down') {
+                    if(!document.body.classList.contains('open-search')){
+                        requestAnimationFrame(this.hide.bind(this));
+                    }
+                } else if (!this.preventReveal) {
                     requestAnimationFrame(this.reveal.bind(this));
                 } else {
                     window.clearTimeout(this.isScrolling);
@@ -583,6 +608,10 @@
                 {
                     "value": "down",
                     "label": "t:sections.header.settings.general.options__2"
+                },
+                {
+                    "value": "always",
+                    "label": "t:sections.header.settings.general.options__3"
                 }]
             },
 		    {
