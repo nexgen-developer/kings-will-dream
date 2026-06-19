@@ -1681,8 +1681,7 @@
           "megamenu_JpeRyW"
         ],
         "custom_css": [
-          ".top-announcement-bar-item p {font-size: 12px;}",
-          ".header-monochrome .header-top {background-color: black;}"
+          ".top-announcement-bar-item p {font-size: 12px;}"
         ],
         "settings": {
           "header_style": "1",

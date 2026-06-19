@@ -1860,6 +1860,11 @@
         .header-10.header-inline .header-top-left,
         .header-10.header-inline .header-top-right{
             flex: 0 0 12.5%;
+            flex-shrink: 0;
+        }
+
+        .header-10.header-inline .header-top-right .header__linkItem > a{
+            white-space: nowrap;
         }
 
         .header-inline .header-top-center{
@@ -1872,8 +1877,9 @@
         }
 
         .header-10.header-inline .header-top-center{
+            flex: 1 1 auto;
             width: auto;
-            flex: 0 0 100%;
+            min-width: 0;
         }
 
         .header-6 .header-top-left{
