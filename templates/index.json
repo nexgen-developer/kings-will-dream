@@ -237,6 +237,53 @@
         },
         "image_Rz7Vmi": {
           "type": "image",
+          "name": "Father's Day",
+          "settings": {
+            "image": "shopify://shop_images/KWD-FATHER-DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/KWD-FATHERS-MAIL.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-arrivals",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_DWwXJw": {
+          "type": "image",
           "name": "Bank Hol",
           "disabled": true,
           "settings": {
@@ -286,9 +333,10 @@
         "image_9TNtGq": {
           "type": "image",
           "name": "Pay Day",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/KWD-PAYDAY-DEKTOP.jpg",
-            "mobile_image": "shopify://shop_images/KWD-Payday-Mail.jpg",
+            "image": "shopify://shop_images/KWD-june-payda-ydesktop.jpg",
+            "mobile_image": "shopify://shop_images/KWD-june-payday-mail.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
@@ -384,6 +432,7 @@
         "image_nBK64H",
         "image_wwCt4Y",
         "image_Rz7Vmi",
+        "image_DWwXJw",
         "image_9TNtGq",
         "image_aDjymn"
       ],
@@ -420,69 +469,83 @@
     "halo_image_gallery_ByWM9L": {
       "type": "halo-image-gallery",
       "blocks": {
-        "image_x9UeLB": {
+        "image_By4y9D": {
           "type": "image",
+          "name": "Kids",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Hoodies_copy.png",
+            "image": "shopify://shop_images/Quick_Links_-_Kids.jpg",
             "btn_text": "",
             "link": "shopify://collections/kids"
           }
         },
-        "image_jxh48i": {
+        "image_x9UeLB": {
           "type": "image",
+          "name": "Tees",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Tees_217b96bc-33e9-43d0-9ea3-0782d64f5778.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Tees_2ee65080-0636-496a-bf5b-27d0815a1e4d.jpg",
             "btn_text": "",
             "link": "shopify://collections/t-shirts"
           }
         },
-        "image_akPfNW": {
+        "image_jxh48i": {
           "type": "image",
+          "name": "Hoodies",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Hoodies_cd69bec1-f625-4b33-8154-99d7a2d6858d.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Hoodies_03f176bf-c9ee-4de3-8eab-d1149b2f9784.jpg",
             "btn_text": "",
             "link": "shopify://collections/hoodies"
           }
         },
         "image_bR9wdc": {
           "type": "image",
+          "name": "Accessories",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Accessories_e238500d-8f49-44ff-aa4f-fea4e14bf470.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Accessories_06f88458-d3c4-47c1-a428-e3d6708af9ca.jpg",
             "btn_text": "",
             "link": "shopify://collections/accessories"
+          }
+        },
+        "image_akPfNW": {
+          "type": "image",
+          "name": "Joggers",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Joggers.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/jog-track-pants"
           }
         }
       },
       "block_order": [
+        "image_By4y9D",
         "image_x9UeLB",
         "image_jxh48i",
-        "image_akPfNW",
-        "image_bR9wdc"
+        "image_bR9wdc",
+        "image_akPfNW"
       ],
       "name": "Base Quick Links",
       "settings": {
         "show_image_gallery": true,
         "container": "full",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_tablet": 0,
-        "padding_bottom_tablet": 0,
-        "padding_top_mobile": 0,
+        "padding_top": 70,
+        "padding_bottom": 20,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 10,
+        "padding_top_mobile": 30,
         "padding_bottom_mobile": 0,
         "block_title": "",
         "block_text": "",
         "block_title_align": "center",
         "block_layout": "grid",
         "block_mobile_layout": "swipe",
-        "col": "no-distance",
+        "col": "narrow",
         "col_border": 0,
         "block_action": "link",
         "block_btn": "2",
         "block_view_btn": "1",
         "block_view_btn_text": "",
         "block_view_btn_link": "",
-        "block_per_row": "4",
-        "block_show": "4",
+        "block_per_row": "5",
+        "block_show": "5",
         "block_dots": true,
         "block_arrows": true
       }
@@ -515,60 +578,12 @@
     "205c4f7a-d208-44ad-9a74-a5715aff1348": {
       "type": "halo-slideshow",
       "blocks": {
-        "image_wDw9NP": {
-          "type": "image",
-          "name": "Studio",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/July-Payday-KWD-DESKTOP.jpg",
-            "mobile_image": "shopify://shop_images/July-Payday-KWD-MOB.jpg",
-            "title": "",
-            "subtitle": "",
-            "text": "",
-            "btn": "2",
-            "btn_text": "",
-            "link": "shopify://collections/new-arrivals",
-            "container_content": "1570",
-            "position": "left",
-            "alignment": "left",
-            "lookbook": false,
-            "product_1": "",
-            "point_x_1": 10,
-            "point_y_1": 10,
-            "product_2": "",
-            "point_x_2": 10,
-            "point_y_2": 10,
-            "product_3": "",
-            "point_x_3": 10,
-            "point_y_3": 10,
-            "product_4": "",
-            "point_x_4": 10,
-            "point_y_4": 10,
-            "product_5": "",
-            "point_x_5": 10,
-            "point_y_5": 10,
-            "show_background_overlay": false,
-            "transparent_button": false,
-            "background_color": "",
-            "background_overlay": "#000000",
-            "text_color": "#ffffff",
-            "title_color": "#ffffff",
-            "title_font": "font_2",
-            "title_font_size": 26,
-            "title_mobile_font_size": 20,
-            "title_font_weight": "700",
-            "title_text_transform": "none",
-            "text_font_size": 14,
-            "text_font_weight": "600",
-            "text_text_transform": "uppercase"
-          }
-        },
         "image_CX9FEV": {
           "type": "image",
           "name": "Studio",
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_V2_Studio_e06c239b-5302-40b8-acae-440cf1b4862a.png",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_V2_Studio_459ecb54-9585-4578-b450-5e69fe5f8186.png",
+            "image": "shopify://shop_images/BANNER_-_Desktop_Studio.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_-_Mobile_Studio.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
@@ -612,7 +627,6 @@
         }
       },
       "block_order": [
-        "image_wDw9NP",
         "image_CX9FEV"
       ],
       "custom_css": [
@@ -653,34 +667,47 @@
       "blocks": {
         "image_P3V7dK": {
           "type": "image",
+          "name": "Kids",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Studio_Joggers_copy.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Kids.jpg",
             "btn_text": "",
             "link": "shopify://collections/studio-kids"
           }
         },
         "image_9NPeLW": {
           "type": "image",
+          "name": "Tees",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Studio_Tees.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Tees_7c588ef7-eb38-482c-8e20-bb86b1e48a3e.jpg",
             "btn_text": "",
             "link": "shopify://collections/studio-t-shirts"
           }
         },
         "image_A6bBnT": {
           "type": "image",
+          "name": "Hoodies",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Studio_Hoodies.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Hoodies_f8db589b-f813-435e-8aee-6647383a3691.jpg",
             "btn_text": "",
             "link": "shopify://collections/studio-hoodies"
           }
         },
         "image_7hLhQL": {
           "type": "image",
+          "name": "Joggers",
           "settings": {
-            "image": "shopify://shop_images/Quick_Links_-_Studio_Joggers.jpg",
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Joggers_cf19dea3-681c-442e-84d0-0629ca782b24.jpg",
             "btn_text": "",
             "link": "shopify://collections/studio-jog-trackpants"
+          }
+        },
+        "image_rxa7jG": {
+          "type": "image",
+          "name": "Shorts",
+          "settings": {
+            "image": "shopify://shop_images/Quick_Links_-_Studio_Shorts.jpg",
+            "btn_text": "",
+            "link": "shopify://collections/studio-shorts"
           }
         }
       },
@@ -688,32 +715,33 @@
         "image_P3V7dK",
         "image_9NPeLW",
         "image_A6bBnT",
-        "image_7hLhQL"
+        "image_7hLhQL",
+        "image_rxa7jG"
       ],
       "name": "Studio Quick Links",
       "settings": {
         "show_image_gallery": true,
         "container": "full",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_tablet": 0,
-        "padding_bottom_tablet": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 10,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
         "block_title": "",
         "block_text": "",
         "block_title_align": "center",
         "block_layout": "grid",
         "block_mobile_layout": "swipe",
-        "col": "no-distance",
+        "col": "narrow",
         "col_border": 0,
         "block_action": "link",
         "block_btn": "2",
         "block_view_btn": "1",
         "block_view_btn_text": "",
         "block_view_btn_link": "",
-        "block_per_row": "4",
-        "block_show": "4",
+        "block_per_row": "5",
+        "block_show": "5",
         "block_dots": true,
         "block_arrows": true
       }
