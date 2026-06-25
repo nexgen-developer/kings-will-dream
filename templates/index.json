@@ -383,8 +383,8 @@
           "name": "20% - Summer",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/KWD-summer20-desktop.jpg",
-            "mobile_image": "shopify://shop_images/KWD-summer20-mobile.jpg",
+            "image": "shopify://shop_images/KWD-SUMMER-DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/KWD-SUMMER-MOB.jpg",
             "title": "",
             "subtitle": "",
             "text": "",
