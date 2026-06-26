@@ -238,6 +238,7 @@
         "image_Rz7Vmi": {
           "type": "image",
           "name": "Father's Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-FATHER-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-FATHERS-MAIL.jpg",
@@ -333,7 +334,6 @@
         "image_9TNtGq": {
           "type": "image",
           "name": "Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-june-payda-ydesktop.jpg",
             "mobile_image": "shopify://shop_images/KWD-june-payday-mail.jpg",
