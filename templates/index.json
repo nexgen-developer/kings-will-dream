@@ -334,6 +334,7 @@
         "image_9TNtGq": {
           "type": "image",
           "name": "Pay Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-june-payda-ydesktop.jpg",
             "mobile_image": "shopify://shop_images/KWD-june-payday-mail.jpg",
@@ -381,7 +382,6 @@
         "image_aDjymn": {
           "type": "image",
           "name": "20% - Summer",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-SUMMER-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-SUMMER-MOB.jpg",
