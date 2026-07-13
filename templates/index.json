@@ -382,6 +382,7 @@
         "image_aDjymn": {
           "type": "image",
           "name": "20% - Summer",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-SUMMER-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-SUMMER-MOB.jpg",
@@ -429,7 +430,6 @@
         "image_zKycqa": {
           "type": "image",
           "name": "Summer Sale",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-SUMMER-SALE-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-SUMMER-SALE-mobile.jpg",
