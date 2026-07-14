@@ -112,6 +112,7 @@
             {{ "accessibility.skip_to_text" | t }}
         </a>
         {% render 'global-style' %}
+        {% render 'globo-filter-styles' %}
         {% render 'global-script' %}
         {% render 'wrapper-header' %}
         <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -139,6 +140,7 @@
     
 	
     {% include 'globo.filter.action' %}
+    {% render 'flair-collection-scroll' %}
 
 <script>
     // Flair app should be loaded automatically by Shopify app system

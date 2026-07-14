@@ -1,0 +1,19 @@
+# Kings Will Dream — Shopify theme environments
+# Registry: /Users/andrewdouglas/Shopify/SHOPIFY-CLIENTS.md
+# Store: 5fec89-eb.myshopify.com (kingswilldream.com)
+# NOTE: Git branch names are NOT Shopify theme names.
+
+[environments.default]
+store = "5fec89-eb.myshopify.com"
+theme = "189743104324"
+# Shopify theme: kings-will-dream/staging [unpublished]
+
+[environments.staging]
+store = "5fec89-eb.myshopify.com"
+theme = "189743104324"
+# Shopify theme: kings-will-dream/staging [unpublished]
+
+[environments.main]
+store = "5fec89-eb.myshopify.com"
+theme = "187066548548"
+# Shopify theme: kings-will-dream/main [live]
