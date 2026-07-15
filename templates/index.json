@@ -524,7 +524,7 @@
           "settings": {
             "image": "shopify://shop_images/Quick_Links_-_Kids.jpg",
             "btn_text": "",
-            "link": "shopify://collections/kids"
+            "link": "shopify://collections/all-boys-clothing"
           }
         },
         "image_x9UeLB": {
@@ -533,7 +533,7 @@
           "settings": {
             "image": "shopify://shop_images/Quick_Links_-_Tees_2ee65080-0636-496a-bf5b-27d0815a1e4d.jpg",
             "btn_text": "",
-            "link": "shopify://collections/t-shirts"
+            "link": "shopify://collections/all-mens-t-shirts"
           }
         },
         "image_jxh48i": {
@@ -542,7 +542,7 @@
           "settings": {
             "image": "shopify://shop_images/Quick_Links_-_Hoodies_03f176bf-c9ee-4de3-8eab-d1149b2f9784.jpg",
             "btn_text": "",
-            "link": "shopify://collections/hoodies"
+            "link": "shopify://collections/all-mens-hoodies"
           }
         },
         "image_bR9wdc": {
@@ -551,7 +551,7 @@
           "settings": {
             "image": "shopify://shop_images/Quick_Links_-_Accessories_06f88458-d3c4-47c1-a428-e3d6708af9ca.jpg",
             "btn_text": "",
-            "link": "shopify://collections/accessories"
+            "link": "shopify://collections/all-mens-accessories"
           }
         },
         "image_akPfNW": {
@@ -560,7 +560,7 @@
           "settings": {
             "image": "shopify://shop_images/Quick_Links_-_Joggers.jpg",
             "btn_text": "",
-            "link": "shopify://collections/jog-track-pants"
+            "link": "shopify://collections/all-mens-jog-trackpants"
           }
         }
       },
