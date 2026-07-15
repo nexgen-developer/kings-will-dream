@@ -252,7 +252,7 @@
           "type": "custom",
           "settings": {
             "title": "Delivery & Returns",
-            "content": "<p>To see our delivery options <a href=\"/pages/delivery\" title=\"Delivery\"><strong>click here.</strong></a></p><p>To see our returns information <a href=\"/pages/returns\" title=\"Returns\"><strong>click here</strong></a><strong>.</strong></p>",
+            "content": "<p>To see our delivery options <a href=\"/pages/delivery-information\" title=\"Delivery Information\"><strong>click here.</strong></a></p><p>To see our returns information <a href=\"/pages/returns\" title=\"Returns\"><strong>click here</strong></a><strong>.</strong></p>",
             "content_html": ""
           }
         },
