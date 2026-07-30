@@ -432,7 +432,7 @@
           "name": "Summer Sale",
           "settings": {
             "image": "shopify://shop_images/KWD-SS-DESKTOP.gif",
-            "mobile_image": "shopify://shop_images/KWD-SUMMER-SALE-mobile.jpg",
+            "mobile_image": "shopify://shop_images/KWD-SS-MAIL.gif",
             "title": "",
             "subtitle": "",
             "text": "",
