@@ -702,6 +702,11 @@
     padding-bottom: 18px;
 }
 
+.footer_social-media--below{
+    padding-top: 18px;
+    padding-bottom: 0;
+}
+
 .footer-4 .footer_social-media,
 .footer-5 .footer_social-media,
 .footer-9 .footer_social-media,
