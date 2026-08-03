@@ -27,12 +27,12 @@
     "letter_spacing": 0,
     "btn_padding_top": 17,
     "btn_padding_bottom": 17,
-    "social_twitter_link": "https://twitter.com/shopify",
-    "social_facebook_link": "https://www.facebook.com/shopify",
-    "social_pinterest_link": "https://www.pinterest.com/shopify/",
-    "social_instagram_link": "https://www.instagram.com/shopify/",
-    "social_tiktok_link": "https://tiktok.com/@shopify",
-    "social_youtube_link": "https://www.youtube.com/shopify",
+    "social_twitter_link": "",
+    "social_facebook_link": "https://www.facebook.com/KingsWillDream",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https://www.instagram.com/kingswilldream_/",
+    "social_tiktok_link": "https://www.tiktok.com/@kingswilldream",
+    "social_youtube_link": "",
     "favicon": "shopify://shop_images/KWD_Logo.png",
     "pagination_style": "1",
     "infinite_scroll_style": "2",
@@ -399,7 +399,8 @@
             "type": "text",
             "settings": {
               "heading": "Kings Will Dream",
-              "subtext": "<p>Kings Will Dream pushes the boundaries of design, trend and quality as they cement their place in streetwear royalty.</p>"
+              "subtext": "<p>Kings Will Dream pushes the boundaries of design, trend and quality as they cement their place in streetwear royalty.</p>",
+              "show_social": true
             }
           }
         },
@@ -421,7 +422,7 @@
           "newsletter_color": "#808080",
           "newsletter_border": "#2e2e2e",
           "show_social": true,
-          "social_bg": "#2e2e2e",
+          "social_bg": "",
           "social_color": "#ffffff",
           "social_bg_hover": "#bc1b3b",
           "social_color_hover": "#ffffff",
