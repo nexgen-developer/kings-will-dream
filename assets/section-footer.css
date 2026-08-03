@@ -712,16 +712,16 @@
 }
 
 .footer_social-media--below .list-social__item{
-    margin: 0 6px 0 0;
+    margin: 0 8px 0 0;
 }
 
 .footer_social-media--below .list-social__link{
-    padding: 6px;
+    padding: 8px;
 }
 
 .footer_social-media--below .list-social__link .icon{
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 }
 
 @media (min-width: 1025px){
