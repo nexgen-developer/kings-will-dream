@@ -422,7 +422,7 @@
           "newsletter_color": "#808080",
           "newsletter_border": "#2e2e2e",
           "show_social": true,
-          "social_bg": "#2e2e2e",
+          "social_bg": "",
           "social_color": "#ffffff",
           "social_bg_hover": "#bc1b3b",
           "social_color_hover": "#ffffff",
