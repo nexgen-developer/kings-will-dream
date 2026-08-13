@@ -430,6 +430,7 @@
         "image_zKycqa": {
           "type": "image",
           "name": "Summer Sale",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-SS-DESKTOP.gif",
             "mobile_image": "shopify://shop_images/KWD-SS-MAIL.gif",
@@ -477,7 +478,6 @@
         "image_B8YBcr": {
           "type": "image",
           "name": "Summer Sale FINAL CHANCE",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-END-OF-SS-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-END-OF-SS-MOB.jpg",
