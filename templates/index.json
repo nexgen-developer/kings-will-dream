@@ -521,6 +521,54 @@
             "text_font_weight": "600",
             "text_text_transform": "uppercase"
           }
+        },
+        "image_z87m9k": {
+          "type": "image",
+          "name": "Summer Sale BANK HOL",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/KWD-SS-DESKTOP.gif",
+            "mobile_image": "shopify://shop_images/KWD-AUG-BANK-HOL-MOB.gif",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/sale",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
         }
       },
       "block_order": [
@@ -532,7 +580,8 @@
         "image_9TNtGq",
         "image_aDjymn",
         "image_zKycqa",
-        "image_B8YBcr"
+        "image_B8YBcr",
+        "image_z87m9k"
       ],
       "name": "Base Banner",
       "settings": {
