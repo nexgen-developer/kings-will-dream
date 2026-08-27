@@ -209,7 +209,7 @@
           "type": "add_to_cart_form",
           "settings": {
             "enable_shake_affect": false,
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "padding_top": 0,
             "padding_bottom": 0,
             "show_subtotal": true,
