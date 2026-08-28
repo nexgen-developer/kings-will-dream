@@ -478,6 +478,7 @@
         "image_B8YBcr": {
           "type": "image",
           "name": "Summer Sale FINAL CHANCE",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-END-OF-SS-DESKTOP.jpg",
             "mobile_image": "shopify://shop_images/KWD-END-OF-SS-MOB.jpg",
@@ -525,9 +526,8 @@
         "image_z87m9k": {
           "type": "image",
           "name": "Summer Sale BANK HOL",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/KWD-SS-DESKTOP.gif",
+            "image": "shopify://shop_images/KWD-AUG-BANK-HOL-DESKTOP.gif",
             "mobile_image": "shopify://shop_images/KWD-AUG-BANK-HOL-MOB.gif",
             "title": "",
             "subtitle": "",
