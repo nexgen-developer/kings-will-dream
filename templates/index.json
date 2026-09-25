@@ -94,6 +94,7 @@
         "image_kUzA4D": {
           "type": "image",
           "name": "AW26 Base",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_721707d9-1e33-4162-b013-fae9976167f9.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_e24cc841-49e5-441e-b30e-7b8f6ac83d5e.jpg",
@@ -141,7 +142,6 @@
         "image_B8YBcr": {
           "type": "image",
           "name": "Sept Payday",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/KWD-SEPT-PAYDAY-DESKTOP_55908243-c7b7-4c51-abf2-5aa823246806.jpg",
             "mobile_image": "shopify://shop_images/KWD-SEPT-PAYDAY-mail.jpg",
