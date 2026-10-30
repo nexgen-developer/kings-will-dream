@@ -238,7 +238,6 @@
         "image_9byMGj": {
           "type": "image",
           "name": "30th October - Halloween / Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile.jpg",
@@ -286,6 +285,7 @@
         "image_kUzA4D": {
           "type": "image",
           "name": "AW26 Base",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_721707d9-1e33-4162-b013-fae9976167f9.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_e24cc841-49e5-441e-b30e-7b8f6ac83d5e.jpg",
