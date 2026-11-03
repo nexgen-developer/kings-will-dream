@@ -238,7 +238,6 @@
         "image_Cz3pPE": {
           "type": "image",
           "name": "2nd November - Black Friday Month",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop_1a1c464b-85d9-4b86-b609-d66a782107eb.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile_ce0e1576-0f12-4c82-87c5-be80b9273a8c.jpg",
@@ -286,6 +285,7 @@
         "image_9byMGj": {
           "type": "image",
           "name": "30th October - Halloween / Pay Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile.jpg",
