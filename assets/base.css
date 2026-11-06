@@ -192,7 +192,8 @@ textarea:empty,
 shopify-payment-terms:empty,
 shopify-installments-modal:empty,
 model-viewer:empty,
-polyline:empty {
+polyline:empty,
+.mobileMenu-toggle__Icon:empty {
     display: block;
 }
 
