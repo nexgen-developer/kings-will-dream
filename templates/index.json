@@ -190,7 +190,6 @@
         "image_jbNTDi": {
           "type": "image",
           "name": "13th November - Black Friday Month",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop_286c34ae-7919-445c-b4d2-8496ade0cf93.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile_468a029c-8ab7-4e5d-aaa3-8724e6de8be2.jpg",
@@ -238,6 +237,7 @@
         "image_Cz3pPE": {
           "type": "image",
           "name": "2nd November - Black Friday Month",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop_1a1c464b-85d9-4b86-b609-d66a782107eb.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile_ce0e1576-0f12-4c82-87c5-be80b9273a8c.jpg",
