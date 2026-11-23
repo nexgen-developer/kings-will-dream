@@ -238,7 +238,6 @@
         "image_nCGaRP": {
           "type": "image",
           "name": "20th November - Black Friday Month",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop_4ad66fe4-278b-426d-b2b6-2d70c2ebe902.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile_c02eb31c-ab4c-4a5e-8347-b2604b2bd22a.jpg",
@@ -286,6 +285,7 @@
         "image_jbNTDi": {
           "type": "image",
           "name": "13th November - Black Friday Month",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Kings-Will-Dream-Desktop_286c34ae-7919-445c-b4d2-8496ade0cf93.jpg",
             "mobile_image": "shopify://shop_images/Kings-Will-Dream-Mobile_468a029c-8ab7-4e5d-aaa3-8724e6de8be2.jpg",
@@ -1159,7 +1159,7 @@
         "newsletter_bg_attachment": "scroll",
         "newsletter_bg_size": "cover",
         "newsletter_heading": "",
-        "newsletter_text": "<p>Subscriber Exclusive. Sign up for 25% off.</p>",
+        "newsletter_text": "<p>Subscriber Exclusive. Sign up for 30% off.</p>",
         "newsletter_text_2": "",
         "block_bg": "#000",
         "newsletter_color": "#ffffff",

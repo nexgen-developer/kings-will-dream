@@ -109,7 +109,6 @@
       "block_order": [
         "template--16937253372154__db7096be-e358-4fc3-8c65-d810472d5c81-image-1"
       ],
-      "disabled": true,
       "name": "Black Friday Banner",
       "settings": {
         "show_slideshow": true,
@@ -193,6 +192,7 @@
       "block_order": [
         "image_VrYVxh"
       ],
+      "disabled": true,
       "name": "Black Friday Month Banner",
       "settings": {
         "show_slideshow": true,
